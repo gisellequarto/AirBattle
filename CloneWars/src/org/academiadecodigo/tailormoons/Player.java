@@ -5,7 +5,7 @@ public class Player {
     private int score;
     private boolean alive = true;
     private String name;
-    private Position pos;
+    //private Position pos;
 
     public Player(String name){
         this.name = name;
@@ -15,9 +15,9 @@ public class Player {
         this.score += score;
     }
 
-    public void shoot (){
+    /*public void shoot (){
         new Bullet(this.pos);
-    }
+    }*/
 
     public void die(){
         this.alive = false;

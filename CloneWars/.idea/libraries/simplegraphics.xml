@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="simplegraphics">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Bootcamp/git/exercises/libraries/simplegraphics.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
