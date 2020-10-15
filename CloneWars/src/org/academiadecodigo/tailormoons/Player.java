@@ -1,6 +1,9 @@
 package org.academiadecodigo.tailormoons;
 
-public class Player {
+import org.academiadecodigo.simplegraphics.graphics.Movable;
+import org.academiadecodigo.simplegraphics.pictures.Picture;
+
+public class Player extends Picture {
 
     private int score;
     private boolean alive = true;
@@ -15,11 +18,17 @@ public class Player {
         this.score += score;
     }
 
-    /*public void shoot (){
-        new Bullet(this.pos);
-    }*/
+    public void shoot (){
+        new Bullet(this.getX(), this.getY());
+    }
 
     public void die(){
         this.alive = false;
+    }
+
+
+    @Override
+    public void translate(double v, double v1) {
+
     }
 }

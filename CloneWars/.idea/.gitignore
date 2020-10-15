@@ -199,3 +199,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,macos,linux,windows,javaal.com/developers/gitignore/api/intellij,macos,windows,linux
+/libraries/
