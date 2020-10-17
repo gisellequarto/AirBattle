@@ -20,13 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7a4aeee-173e-4812-a2a8-bd671a9ef58a" name="Default Changelist" comment="Com a classe KeyboardListener">
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/simplegraphics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/boat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mountain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/simplegraphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/gameobjects/Supply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../groupproject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/Bullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/CloneWars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/Grid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/KeyboardListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/GameObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/ObstacleType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/Obstacles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/Supply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/predio.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/Bullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/KeyboardListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/KeyboardListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/Supply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/gameobjects/ObstacleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/tailormoons/gameobjects/ObstacleType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,31 +160,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602700398241" />
+    <state x="172" y="127" width="1094" height="541" key="DiffContextDialog" timestamp="1602934279915">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="172" y="127" width="1094" height="541" key="DiffContextDialog/72.27.1294.741@72.27.1294.741" timestamp="1602934279915" />
     <state x="521" y="214" width="735" height="520" key="FileChooserDialogImpl" timestamp="1602712694848">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="666" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602700492222" />
     <state x="521" y="214" width="735" height="520" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1602712694848" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1602933455173">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1602934599553">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602703108087" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602933455173" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1602933455172">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602934599553" />
+    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1602934599552">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602703108087" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602933455172" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1602933455163">
+    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602934599552" />
+    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1602934599552">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602703108087" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602933455163" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1602933455172">
+    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602934599552" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1602934599553">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602703108087" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602933455172" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602934599553" />
     <state x="332" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1602712706096">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

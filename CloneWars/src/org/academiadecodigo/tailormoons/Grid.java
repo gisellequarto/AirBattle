@@ -13,6 +13,6 @@ public class Grid {
     public Grid() {
         grid = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT);
         grid.setColor(Color.BLACK);
-        grid.draw();
+        grid.fill();
     }
 }

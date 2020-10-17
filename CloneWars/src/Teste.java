@@ -13,14 +13,5 @@ public class Teste {
 
 
 
-
-
-
-        /*Bullet bullet = new Bullet(200, 500);
-        while (true) {
-            Thread.sleep(100);
-            bullet.move();
-        }*/
-
     }
 }

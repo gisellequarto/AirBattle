@@ -1,14 +1,16 @@
 package org.academiadecodigo.tailormoons;
 
 import org.academiadecodigo.simplegraphics.graphics.Color;
+
 import org.academiadecodigo.simplegraphics.graphics.Ellipse;
+
+
 
 public class Bullet extends Ellipse {
 
     private final int BULLET_SIZE = 10;
     private final int BULLET_SPEED = 10;
 
-    //private Ellipse bullet;
 
     public Bullet(double v, double v1, int PICTURE_MIDDLE) {
         super(v + PICTURE_MIDDLE, v1 - 30, 10, 10);
@@ -37,5 +39,8 @@ public class Bullet extends Ellipse {
         this.translate(0, -BULLET_SPEED);
 
     }
+
+
+
 
 }
