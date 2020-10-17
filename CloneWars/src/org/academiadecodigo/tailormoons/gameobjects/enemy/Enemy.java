@@ -7,16 +7,23 @@ import org.academiadecodigo.tailormoons.gameobjects.Shootable;
 
 public abstract class Enemy extends GameObject implements Shootable, Crashable {
 
-    private int health = 3;
-    private int scoreValue = 10;
+    private int health;
+    private int scoreValue;
     private Picture picture;
 
-    public Enemy(Picture picture) {
+    public Enemy(int health, int scoreValue, Picture picture) {
         super(picture);
+        this.health = health;
+        this.scoreValue = scoreValue;
+    }
+
+    @Override
+    public void move() {
+
     }
 
     public boolean isDestroyed() {
-        return this.health == 0;
+        return this.health <= 0;
     }
 
 }

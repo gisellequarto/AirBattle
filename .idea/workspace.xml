@@ -19,58 +19,55 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd6606e-5bf9-4b66-b0ea-fb6d6a206371" name="Default Changelist" comment="">
+    <list default="true" id="65e77be9-fa5b-4841-b737-521e20fb090c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/Shootable.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/Shootable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupproject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/groupproject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Grid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/KeyboardListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/KeyboardListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/ObstacleType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/Obstacles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/Supply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ixJMgVtuI5MRtkmpieVYqxOKej" />
+  <component name="ProjectId" id="1j0vm0bcAUCk3S9SdbOpY1vReng" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CloneWars/assets" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.academiadecodigo.tailormoons.gameobjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Teste">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.tailormoons.Test" />
-      <module name="groupproject1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Teste" />
       <module name="groupproject1" />
@@ -81,26 +78,19 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5dd6606e-5bf9-4b66-b0ea-fb6d6a206371" name="Default Changelist" comment="" />
-      <created>1602843262402</created>
+      <changelist id="65e77be9-fa5b-4841-b737-521e20fb090c" name="Default Changelist" comment="" />
+      <created>1602953978404</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602843262402</updated>
-      <workItem from="1602843263574" duration="10000" />
-      <workItem from="1602855906626" duration="2711000" />
-      <workItem from="1602859886254" duration="944000" />
+      <updated>1602953978404</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -115,29 +105,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1748" height="279" key="GridCell.Tab.0.bottom" timestamp="1602948930443">
+    <state x="708" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1602954828272">
       <screen x="0" y="23" width="1792" height="1025" />
     </state>
-    <state width="1748" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1602948930443" />
-    <state width="1878" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1000@0.23.1920.1000" timestamp="1602860904156" />
-    <state width="1748" height="279" key="GridCell.Tab.0.center" timestamp="1602948930442">
+    <state x="708" y="248" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1025@0.23.1792.1025" timestamp="1602954828272" />
+    <state x="633" y="317" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602954603514">
       <screen x="0" y="23" width="1792" height="1025" />
     </state>
-    <state width="1748" height="279" key="GridCell.Tab.0.center/0.23.1792.1025@0.23.1792.1025" timestamp="1602948930442" />
-    <state width="1878" height="271" key="GridCell.Tab.0.center/0.23.1920.1000@0.23.1920.1000" timestamp="1602860904155" />
-    <state width="1748" height="279" key="GridCell.Tab.0.left" timestamp="1602948930442">
+    <state x="633" y="317" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1792.1025@0.23.1792.1025" timestamp="1602954603514" />
+    <state x="396" y="174" key="SettingsEditor" timestamp="1602954488896">
       <screen x="0" y="23" width="1792" height="1025" />
     </state>
-    <state width="1748" height="279" key="GridCell.Tab.0.left/0.23.1792.1025@0.23.1792.1025" timestamp="1602948930442" />
-    <state width="1878" height="271" key="GridCell.Tab.0.left/0.23.1920.1000@0.23.1920.1000" timestamp="1602860904155" />
-    <state width="1748" height="279" key="GridCell.Tab.0.right" timestamp="1602948930442">
-      <screen x="0" y="23" width="1792" height="1025" />
-    </state>
-    <state width="1748" height="279" key="GridCell.Tab.0.right/0.23.1792.1025@0.23.1792.1025" timestamp="1602948930442" />
-    <state width="1878" height="271" key="GridCell.Tab.0.right/0.23.1920.1000@0.23.1920.1000" timestamp="1602860904155" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1602858417154">
-      <screen x="0" y="23" width="1920" height="1000" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.23.1920.1000@0.23.1920.1000" timestamp="1602858417154" />
+    <state x="396" y="174" key="SettingsEditor/0.23.1792.1025@0.23.1792.1025" timestamp="1602954488896" />
   </component>
 </project>
