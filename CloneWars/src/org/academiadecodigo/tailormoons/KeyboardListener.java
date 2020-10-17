@@ -2,6 +2,7 @@ package org.academiadecodigo.tailormoons;
 
 import org.academiadecodigo.simplegraphics.graphics.Movable;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
+import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 
 
@@ -11,6 +12,7 @@ public class KeyboardListener implements KeyboardHandler {
 
     public KeyboardListener(Player player) {
         this.player = player;
+
     }
 
     @Override

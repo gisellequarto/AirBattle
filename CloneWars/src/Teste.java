@@ -1,21 +1,26 @@
+import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
+import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
+import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
+import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
-import org.academiadecodigo.tailormoons.Bullet;
-import org.academiadecodigo.tailormoons.Grid;
+import org.academiadecodigo.tailormoons.*;
 
 public class Teste {
 
     public static void main(String[] args) throws InterruptedException {
-       /* Picture picture1 = new Picture(1, 1, "assests/predio.jpg");
 
-        picture1.draw();*/
+        Game.init("Hugo");
 
 
-        Grid grid1 = new Grid();
-        Bullet bullet = new Bullet(200, 500);
+
+
+
+
+        /*Bullet bullet = new Bullet(200, 500);
         while (true) {
             Thread.sleep(100);
             bullet.move();
-        }
+        }*/
 
     }
 }
