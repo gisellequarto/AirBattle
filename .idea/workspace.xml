@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5dd6606e-5bf9-4b66-b0ea-fb6d6a206371" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CloneWars/assests/predio.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Supply.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/Supply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/ObstacleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/ObstacleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +45,12 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.tailormoons.Test" />
-      <module name="groupproject1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CloneWars/assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Teste">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -52,8 +64,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.tailormoons.Test" />
+      <module name="groupproject1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teste" />
+      <module name="groupproject1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -75,22 +102,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1602860904156">
-      <screen x="0" y="23" width="1920" height="1000" />
+    <state width="1748" height="279" key="GridCell.Tab.0.bottom" timestamp="1602948930443">
+      <screen x="0" y="23" width="1792" height="1025" />
     </state>
+    <state width="1748" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1602948930443" />
     <state width="1878" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1000@0.23.1920.1000" timestamp="1602860904156" />
-    <state width="1878" height="271" key="GridCell.Tab.0.center" timestamp="1602860904155">
-      <screen x="0" y="23" width="1920" height="1000" />
+    <state width="1748" height="279" key="GridCell.Tab.0.center" timestamp="1602948930442">
+      <screen x="0" y="23" width="1792" height="1025" />
     </state>
+    <state width="1748" height="279" key="GridCell.Tab.0.center/0.23.1792.1025@0.23.1792.1025" timestamp="1602948930442" />
     <state width="1878" height="271" key="GridCell.Tab.0.center/0.23.1920.1000@0.23.1920.1000" timestamp="1602860904155" />
-    <state width="1878" height="271" key="GridCell.Tab.0.left" timestamp="1602860904155">
-      <screen x="0" y="23" width="1920" height="1000" />
+    <state width="1748" height="279" key="GridCell.Tab.0.left" timestamp="1602948930442">
+      <screen x="0" y="23" width="1792" height="1025" />
     </state>
+    <state width="1748" height="279" key="GridCell.Tab.0.left/0.23.1792.1025@0.23.1792.1025" timestamp="1602948930442" />
     <state width="1878" height="271" key="GridCell.Tab.0.left/0.23.1920.1000@0.23.1920.1000" timestamp="1602860904155" />
-    <state width="1878" height="271" key="GridCell.Tab.0.right" timestamp="1602860904155">
-      <screen x="0" y="23" width="1920" height="1000" />
+    <state width="1748" height="279" key="GridCell.Tab.0.right" timestamp="1602948930442">
+      <screen x="0" y="23" width="1792" height="1025" />
     </state>
+    <state width="1748" height="279" key="GridCell.Tab.0.right/0.23.1792.1025@0.23.1792.1025" timestamp="1602948930442" />
     <state width="1878" height="271" key="GridCell.Tab.0.right/0.23.1920.1000@0.23.1920.1000" timestamp="1602860904155" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1602858417154">
       <screen x="0" y="23" width="1920" height="1000" />

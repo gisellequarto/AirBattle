@@ -1,4 +1,4 @@
-package org.academiadecodigo.tailormoons.gameobjects;
+package org.academiadecodigo.tailormoons.gameobjects.obstacle;
 
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
