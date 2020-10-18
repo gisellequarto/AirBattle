@@ -4,7 +4,7 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 public abstract class GameObject {
 
-    private Picture picture;
+    protected Picture picture;
 
     public GameObject(Picture picture) {
         this.picture = picture;

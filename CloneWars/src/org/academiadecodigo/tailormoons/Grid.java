@@ -2,6 +2,8 @@ package org.academiadecodigo.tailormoons;
 
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
+import org.academiadecodigo.tailormoons.gameobjects.obstacle.Obstacle;
+import org.academiadecodigo.tailormoons.gameobjects.obstacle.ObstacleType;
 
 public class Grid {
 
@@ -14,5 +16,9 @@ public class Grid {
         grid = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT);
         grid.setColor(Color.BLACK);
         grid.fill();
+    }
+
+    public int getHeight() {
+        return HEIGHT;
     }
 }

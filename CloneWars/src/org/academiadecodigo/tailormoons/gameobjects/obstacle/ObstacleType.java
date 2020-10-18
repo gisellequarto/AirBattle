@@ -4,8 +4,9 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 public enum ObstacleType {
 
-    MOUNTAIN("assets/mountain.jpg"),
-    ;
+    MOUNTAIN("assets/mountain.png"),
+    BUILDING("assets/building.png"),
+    PYRAMID ("assets/miniPyramid.png");
 
 
     private String picturePath;
