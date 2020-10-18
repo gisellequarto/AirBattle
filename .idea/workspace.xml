@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="65e77be9-fa5b-4841-b737-521e20fb090c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/obstacle/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/obstacle/Obstacle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -101,22 +106,22 @@
       <screen x="0" y="23" width="1792" height="1025" />
     </state>
     <state x="633" y="317" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1792.1025@0.23.1792.1025" timestamp="1602954603514" />
-    <state width="1356" height="266" key="GridCell.Tab.0.bottom" timestamp="1602957548151">
+    <state width="1748" height="279" key="GridCell.Tab.0.bottom" timestamp="1603060669655">
       <screen x="0" y="23" width="1792" height="1025" />
     </state>
-    <state width="1356" height="266" key="GridCell.Tab.0.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1602957548151" />
-    <state width="1356" height="266" key="GridCell.Tab.0.center" timestamp="1602957548151">
+    <state width="1748" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1603060669655" />
+    <state width="1748" height="279" key="GridCell.Tab.0.center" timestamp="1603060669655">
       <screen x="0" y="23" width="1792" height="1025" />
     </state>
-    <state width="1356" height="266" key="GridCell.Tab.0.center/0.23.1792.1025@0.23.1792.1025" timestamp="1602957548151" />
-    <state width="1356" height="266" key="GridCell.Tab.0.left" timestamp="1602957548150">
+    <state width="1748" height="279" key="GridCell.Tab.0.center/0.23.1792.1025@0.23.1792.1025" timestamp="1603060669655" />
+    <state width="1748" height="279" key="GridCell.Tab.0.left" timestamp="1603060669654">
       <screen x="0" y="23" width="1792" height="1025" />
     </state>
-    <state width="1356" height="266" key="GridCell.Tab.0.left/0.23.1792.1025@0.23.1792.1025" timestamp="1602957548150" />
-    <state width="1356" height="266" key="GridCell.Tab.0.right" timestamp="1602957548151">
+    <state width="1748" height="279" key="GridCell.Tab.0.left/0.23.1792.1025@0.23.1792.1025" timestamp="1603060669654" />
+    <state width="1748" height="279" key="GridCell.Tab.0.right" timestamp="1603060669655">
       <screen x="0" y="23" width="1792" height="1025" />
     </state>
-    <state width="1356" height="266" key="GridCell.Tab.0.right/0.23.1792.1025@0.23.1792.1025" timestamp="1602957548151" />
+    <state width="1748" height="279" key="GridCell.Tab.0.right/0.23.1792.1025@0.23.1792.1025" timestamp="1603060669655" />
     <state x="396" y="174" key="SettingsEditor" timestamp="1602954488896">
       <screen x="0" y="23" width="1792" height="1025" />
     </state>
