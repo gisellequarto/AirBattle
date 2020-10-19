@@ -19,69 +19,47 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65e77be9-fa5b-4841-b737-521e20fb090c" name="Default Changelist" comment="">
+    <list default="true" id="b6ce7002-30a9-4d5d-af93-c6fdab585a7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/simplegraphics2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloneWars/assets/gasStation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/obstacle/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/obstacle/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupproject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/groupproject1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1j0vm0bcAUCk3S9SdbOpY1vReng" />
+  <component name="ProjectId" id="1j68T4lMhutjfjLGmZy1tAP3GPR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.academiadecodigo.tailormoons.gameobjects" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Teste" />
-      <module name="groupproject1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Teste" />
-      </list>
-    </recent_temporary>
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CloneWars/assets" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="65e77be9-fa5b-4841-b737-521e20fb090c" name="Default Changelist" comment="" />
-      <created>1602953978404</created>
+      <changelist id="b6ce7002-30a9-4d5d-af93-c6fdab585a7e" name="Default Changelist" comment="" />
+      <created>1603113188431</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602953978404</updated>
+      <updated>1603113188431</updated>
     </task>
     <servers />
   </component>
@@ -95,36 +73,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="708" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1602954828272">
-      <screen x="0" y="23" width="1792" height="1025" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1603113292698">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="708" y="248" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1025@0.23.1792.1025" timestamp="1602954828272" />
-    <state x="633" y="317" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602954603514">
-      <screen x="0" y="23" width="1792" height="1025" />
-    </state>
-    <state x="633" y="317" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1792.1025@0.23.1792.1025" timestamp="1602954603514" />
-    <state width="1748" height="279" key="GridCell.Tab.0.bottom" timestamp="1603060669655">
-      <screen x="0" y="23" width="1792" height="1025" />
-    </state>
-    <state width="1748" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1603060669655" />
-    <state width="1748" height="279" key="GridCell.Tab.0.center" timestamp="1603060669655">
-      <screen x="0" y="23" width="1792" height="1025" />
-    </state>
-    <state width="1748" height="279" key="GridCell.Tab.0.center/0.23.1792.1025@0.23.1792.1025" timestamp="1603060669655" />
-    <state width="1748" height="279" key="GridCell.Tab.0.left" timestamp="1603060669654">
-      <screen x="0" y="23" width="1792" height="1025" />
-    </state>
-    <state width="1748" height="279" key="GridCell.Tab.0.left/0.23.1792.1025@0.23.1792.1025" timestamp="1603060669654" />
-    <state width="1748" height="279" key="GridCell.Tab.0.right" timestamp="1603060669655">
-      <screen x="0" y="23" width="1792" height="1025" />
-    </state>
-    <state width="1748" height="279" key="GridCell.Tab.0.right/0.23.1792.1025@0.23.1792.1025" timestamp="1603060669655" />
-    <state x="396" y="174" key="SettingsEditor" timestamp="1602954488896">
-      <screen x="0" y="23" width="1792" height="1025" />
-    </state>
-    <state x="396" y="174" key="SettingsEditor/0.23.1792.1025@0.23.1792.1025" timestamp="1602954488896" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603113292698" />
   </component>
 </project>
