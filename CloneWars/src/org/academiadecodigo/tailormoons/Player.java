@@ -15,7 +15,7 @@ public class Player extends Picture {
 
     public Player(String name) {
         this.name = name;
-        this.plane = new Picture(x, y, "CloneWars/assets/aviao4.jpg");
+        this.plane = new Picture(x, y, "CloneWars/assets/player-plane.png");
         plane.draw();
     }
 
