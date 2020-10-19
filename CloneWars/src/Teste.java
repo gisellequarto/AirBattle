@@ -1,3 +1,4 @@
+import org.academiadecodigo.tailormoons.Game;
 import org.academiadecodigo.tailormoons.Grid;
 import org.academiadecodigo.tailormoons.gameobjects.GameObject;
 import org.academiadecodigo.tailormoons.gameobjects.enemy.Enemy;
@@ -9,9 +10,11 @@ public class Teste {
 
     public static void main(String[] args) throws InterruptedException {
 
-        //Game.init("Hugo");
-
         Grid grid = new Grid();
+
+        Game game = new Game();
+        game.init("Hugo");
+
         int counter = 30;
         while (true) {
             GameObject.moveAll();

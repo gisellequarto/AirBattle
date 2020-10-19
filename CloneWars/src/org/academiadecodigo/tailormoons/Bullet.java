@@ -3,21 +3,19 @@ package org.academiadecodigo.tailormoons;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 
 import org.academiadecodigo.simplegraphics.graphics.Ellipse;
+import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 
 
-
-public class Bullet extends Ellipse {
+public class Bullet{
 
     private final int BULLET_SIZE = 10;
     private final int BULLET_SPEED = 10;
-
+    private Ellipse bullet;
 
     public Bullet(double v, double v1, int PICTURE_MIDDLE) {
-        super(v + PICTURE_MIDDLE, v1 - 30, 10, 10);
-        //this.bullet = new Ellipse(v, v1, 10, 10);
-
-        this.setColor(Color.RED);
-        this.fill();
+        bullet = new Ellipse(v + PICTURE_MIDDLE, v1 - 30, BULLET_SIZE, BULLET_SIZE);
+        bullet.setColor(Color.RED);
+        bullet.fill();
 
         try {
             moving();
@@ -28,15 +26,15 @@ public class Bullet extends Ellipse {
 
     private void moving() throws InterruptedException {
 
-        while (this.getY() > 0) {
+        while (bullet.getY() > 0) {
             Thread.sleep(100);
-            this.fill();
+            bullet.fill();
             this.move();
         }
     }
 
     public void move() {
-        this.translate(0, -BULLET_SPEED);
+        bullet.translate(0, -BULLET_SPEED);
 
     }
 
