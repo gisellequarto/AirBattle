@@ -6,6 +6,8 @@ import org.academiadecodigo.tailormoons.gameobjects.enemy.Enemy;
 import org.academiadecodigo.tailormoons.gameobjects.enemy.EnemyType;
 import org.academiadecodigo.tailormoons.gameobjects.obstacle.Obstacle;
 import org.academiadecodigo.tailormoons.gameobjects.obstacle.ObstacleType;
+import org.academiadecodigo.tailormoons.gameobjects.supply.Supply;
+import org.academiadecodigo.tailormoons.gameobjects.supply.SupplyType;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -64,6 +66,8 @@ public abstract class GameObject {
             new Obstacle(ObstacleType.valueOf(subtype.toUpperCase()), grid).place(posX);
         } else if (Enemy.class.equals(type)) {
             new Enemy(EnemyType.valueOf(subtype.toUpperCase()), grid).place(posX);
+        } else if (Supply.class.equals(type)) {
+            new Supply(SupplyType.valueOf(subtype.toUpperCase()), grid).place(posX);
         }
     }
 

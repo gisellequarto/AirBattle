@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ce7002-30a9-4d5d-af93-c6fdab585a7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/simplegraphics2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloneWars/assets/gasStation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="b6ce7002-30a9-4d5d-af93-c6fdab585a7e" name="Default Changelist" comment="Added Gas Station enum, Class and image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groupproject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/groupproject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/Teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/Teste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CloneWars/assets" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CloneWars/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teste" />
+      <module name="groupproject1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Teste" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,6 +78,21 @@
       <option name="presentableId" value="Default" />
       <updated>1603113188431</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Gas Station enum, Class and image">
+      <created>1603113835476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603113835476</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Gas Station enum, Class and image">
+      <created>1603113846238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603113846238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +105,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Gas Station enum, Class and image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Gas Station enum, Class and image" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1603113292698">
