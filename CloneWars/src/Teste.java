@@ -14,17 +14,6 @@ public class Teste {
         Game game = new Game();
         game.init("Hugo");
 
-<<<<<<< HEAD
-=======
-        int counter = 30;
-        while (true) {
-            GameObject.moveAll();
-            Thread.sleep(100);
-            if (counter-- == 0) {
-                GameObject.placeObject(Supply.class, SupplyType.GAS_STATION.name(), 50, grid);
-                counter = 30;
-            }
->>>>>>> 74a30f14141bce208b45f434f3ec8ab6fe65e81e
 
 
 
