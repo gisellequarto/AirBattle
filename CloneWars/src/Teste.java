@@ -20,7 +20,7 @@ public class Teste {
             GameObject.moveAll();
             Thread.sleep(100);
             if (counter-- == 0) {
-                GameObject.placeObject(Enemy.class, EnemyType.SPACESHIP.name(), 50, grid);
+                GameObject.placeObject(Supply.class, SupplyType.GAS_STATION.name(), 50, grid);
                 counter = 30;
             }
 
