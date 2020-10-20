@@ -3,8 +3,9 @@ package org.academiadecodigo.tailormoons.gameobjects.enemy;
 public enum EnemyType {
     SPACESHIP(5, 10, 10, "CloneWars/assets/spaceship.png"),
     PLANE(2, 20, 10, "CloneWars/assets/enemy-plane.png"),
-    HELICOPTER(2, 20, 10, "CloneWars/assets/aviao4.jpg"),
-    BOAT(2, 20, 10, "assets/aviao4.png"),;
+    SATELLITE(2, 20, 10, "CloneWars/assets/satellite.png"),
+    UFO(2, 20, 10, "CloneWars/assets/ufo.png");
+
 
     private int health;
     private int scoreValue;

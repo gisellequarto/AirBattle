@@ -8,8 +8,8 @@ import org.academiadecodigo.tailormoons.gameobjects.obstacle.ObstacleType;
 
 public class Grid {
 
-    private final int WIDTH = 400;
-    private final int HEIGHT = 800;
+    private final int WIDTH = 401;
+    private final int HEIGHT = 801;
     private final int PADDING = 10;
     private Rectangle grid;
     private Picture background;
@@ -18,11 +18,19 @@ public class Grid {
         grid = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT);
         grid.setColor(Color.BLACK);
         grid.draw();
-        background = new Picture(PADDING, PADDING, "CloneWars/assets/background1.png");
+        background = new Picture(PADDING + 1, PADDING + 1, "CloneWars/assets/background1.png");
         background.draw();
     }
 
     public int getHeight() {
         return HEIGHT;
+    }
+
+    public int getWIDTH() {
+        return WIDTH;
+    }
+
+    public int getPADDING() {
+        return PADDING;
     }
 }

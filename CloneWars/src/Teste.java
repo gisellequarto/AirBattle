@@ -10,21 +10,11 @@ public class Teste {
 
     public static void main(String[] args) throws InterruptedException {
 
-        Grid grid = new Grid();
 
         Game game = new Game();
         game.init("Hugo");
 
-        int counter = 30;
-        while (true) {
-            GameObject.moveAll();
-            Thread.sleep(100);
-            if (counter-- == 0) {
-                GameObject.placeObject(Enemy.class, EnemyType.SPACESHIP.name(), 50, grid);
-                counter = 30;
-            }
 
-        }
 
 
     }

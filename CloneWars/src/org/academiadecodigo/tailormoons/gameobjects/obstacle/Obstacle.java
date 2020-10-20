@@ -8,13 +8,10 @@ public class Obstacle extends GameObject {
 
     private static int speed = 10;
 
-    private ObstacleType type;
-    private final Grid grid;
+    private Grid grid;
 
-    public Obstacle(ObstacleType type, Grid grid) {
-        super(new Picture(0, 0, type.getImage()), type.name());
-        this.type = type;
-        this.grid = grid;
+    public Obstacle(ObstacleType obstacleType, int x) {
+        super(new Picture(x, 0, obstacleType.getPicturePath()), obstacleType.name());
     }
 
 
@@ -22,12 +19,10 @@ public class Obstacle extends GameObject {
     public void move() {
         this.picture.translate(0, speed);
 
-        if(this.getY() > grid.getHeight()) {
+    /*    if(this.getY() > grid.getHeight()) {
             this.recycle();
-        }
+        }*/
     }
 
-    public ObstacleType getType() {
-        return type;
-    }
+
 }

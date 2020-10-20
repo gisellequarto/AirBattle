@@ -13,21 +13,16 @@ public class Enemy extends GameObject implements Shootable, Crashable {
     private int speed;
     private Grid grid;
 
-    public Enemy(EnemyType enemyType, Grid grid) {
-        super(new Picture(0,0,enemyType.getPicturePath()), enemyType.name());
+    public Enemy(EnemyType enemyType, int x) {
+        super(new Picture(x,0,enemyType.getPicturePath()), enemyType.name());
         this.health = enemyType.getHealth();
         this.scoreValue = enemyType.getScoreValue();
         this.speed = enemyType.getSpeed();
-        this.grid = grid;
     }
 
     @Override
     public void move() {
         picture.translate(0, speed);
-
-        if(this.getY() > grid.getHeight()) {
-            this.recycle();
-        }
     }
 
     public int destroy() {

@@ -31,7 +31,7 @@ public class KeyboardListener implements KeyboardHandler {
                 player.translate(10, 0);
                 break;
             case KeyboardEvent.KEY_SPACE:
-                player.shoot();
+                player.setCanShoot();
         }
     }
 

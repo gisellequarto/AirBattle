@@ -17,25 +17,20 @@ public class Bullet{
         bullet.setColor(Color.RED);
         bullet.fill();
 
-        try {
-            moving();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
     }
 
     private void moving() throws InterruptedException {
-
         while (bullet.getY() > 0) {
             Thread.sleep(100);
             bullet.fill();
             this.move();
         }
+        bullet.delete();
     }
 
     public void move() {
         bullet.translate(0, -BULLET_SPEED);
-
     }
 
 

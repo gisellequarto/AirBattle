@@ -20,20 +20,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ce7002-30a9-4d5d-af93-c6fdab585a7e" name="Default Changelist" comment="Added Gas Station enum, Class and image">
-      <change afterPath="$PROJECT_DIR$/CloneWars/assets/background1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloneWars/assets/background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloneWars/assets/enemy-plane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloneWars/assets/player-plane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloneWars/assets/spaceship.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/aviao4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/boat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/building 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/assets/building.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/building 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/building 8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/building1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/building10.png" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/assets/helix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/building4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/building5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/building6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/building9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/enemy-plane.png" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/assets/enemy-plane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/gasStation.png" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/assets/gasStation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/miniBuilding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/miniMontain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/miniPyramid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/mountain.png" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/assets/mountain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/player-plane.png" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/assets/player-plane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/pyramid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/satellite.png" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/assets/satellite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/assets/spaceship.png" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/assets/spaceship.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CloneWars/src/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/CloneWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/CloneWars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/KeyboardListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/KeyboardListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/EnemyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/enemy/EnemyType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/obstacle/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/obstacle/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/obstacle/ObstacleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/obstacle/ObstacleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/supply/SupplyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects/supply/SupplyType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/groupproject1/Teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/Teste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Grid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/KeyboardListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/KeyboardListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/enemy/Enemy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/enemy/EnemyType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/enemy/EnemyType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/obstacle/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/obstacle/Obstacle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/obstacle/ObstacleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/obstacle/ObstacleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/supply/Supply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/supply/SupplyType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/groupproject1/org/academiadecodigo/tailormoons/gameobjects/supply/SupplyType.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +86,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1j68T4lMhutjfjLGmZy1tAP3GPR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,16 +96,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CloneWars/assets" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CloneWars/assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CloneWars/assets" />
+      <recent name="$PROJECT_DIR$/CloneWars/src/org/academiadecodigo/tailormoons/gameobjects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CloneWars/assets" />
     </key>
   </component>
@@ -79,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Teste" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -96,6 +151,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603113188431</updated>
+      <workItem from="1603183130389" duration="1373000" />
+      <workItem from="1603190797699" duration="122000" />
+      <workItem from="1603200502320" duration="4027000" />
+      <workItem from="1603205083173" duration="15000" />
+      <workItem from="1603205496787" duration="579000" />
+      <workItem from="1603207895971" duration="15497000" />
     </task>
     <task id="LOCAL-00001" summary="Added Gas Station enum, Class and image">
       <created>1603113835476</created>
@@ -113,6 +174,9 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -135,25 +199,33 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603113292698" />
-    <state width="1748" height="279" key="GridCell.Tab.0.bottom" timestamp="1603145848420">
-      <screen x="0" y="23" width="1792" height="1025" />
+    <state x="557" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603203754575">
+      <screen x="0" y="23" width="1920" height="1000" />
+    </state>
+    <state x="557" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1000@0.23.1920.1000" timestamp="1603203754575" />
+    <state width="1878" height="271" key="GridCell.Tab.0.bottom" timestamp="1603223949749">
+      <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1748" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1603145848420" />
+    <state width="1878" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1000@0.23.1920.1000" timestamp="1603223949749" />
     <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1603140816464" />
-    <state width="1748" height="279" key="GridCell.Tab.0.center" timestamp="1603145848420">
-      <screen x="0" y="23" width="1792" height="1025" />
+    <state width="1878" height="271" key="GridCell.Tab.0.center" timestamp="1603223949748">
+      <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1748" height="279" key="GridCell.Tab.0.center/0.23.1792.1025@0.23.1792.1025" timestamp="1603145848420" />
+    <state width="1878" height="271" key="GridCell.Tab.0.center/0.23.1920.1000@0.23.1920.1000" timestamp="1603223949748" />
     <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1603140816462" />
-    <state width="1748" height="279" key="GridCell.Tab.0.left" timestamp="1603145848420">
-      <screen x="0" y="23" width="1792" height="1025" />
+    <state width="1878" height="271" key="GridCell.Tab.0.left" timestamp="1603223949748">
+      <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1748" height="279" key="GridCell.Tab.0.left/0.23.1792.1025@0.23.1792.1025" timestamp="1603145848420" />
+    <state width="1878" height="271" key="GridCell.Tab.0.left/0.23.1920.1000@0.23.1920.1000" timestamp="1603223949748" />
     <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1603140816461" />
-    <state width="1748" height="279" key="GridCell.Tab.0.right" timestamp="1603145848420">
-      <screen x="0" y="23" width="1792" height="1025" />
+    <state width="1878" height="271" key="GridCell.Tab.0.right" timestamp="1603223949748">
+      <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1748" height="279" key="GridCell.Tab.0.right/0.23.1792.1025@0.23.1792.1025" timestamp="1603145848420" />
+    <state width="1878" height="271" key="GridCell.Tab.0.right/0.23.1920.1000@0.23.1920.1000" timestamp="1603223949748" />
     <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1603140816462" />
     <state x="479" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1603138822292">
       <screen x="72" y="27" width="1848" height="1053" />

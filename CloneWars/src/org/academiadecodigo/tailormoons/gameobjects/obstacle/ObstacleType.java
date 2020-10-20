@@ -3,8 +3,8 @@ package org.academiadecodigo.tailormoons.gameobjects.obstacle;
 public enum ObstacleType {
 
     MOUNTAIN("CloneWars/assets/mountain.png"),
-    BUILDING("assets/building.png"),
-    PYRAMID ("assets/miniPyramid.png");
+    BUILDING("CloneWars/assets/building.png"),
+    HELIX ("CloneWars/assets/helix.png");
 
 
     private String picturePath;
@@ -13,7 +13,9 @@ public enum ObstacleType {
         this.picturePath = picturePath;
     }
 
-    public String getImage() {
+    public String getPicturePath() {
         return picturePath;
     }
+
+
 }
