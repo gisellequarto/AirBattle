@@ -3,8 +3,6 @@ package org.academiadecodigo.tailormoons;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
-import org.academiadecodigo.tailormoons.gameobjects.obstacle.Obstacle;
-import org.academiadecodigo.tailormoons.gameobjects.obstacle.ObstacleType;
 
 public class Grid {
 
@@ -13,13 +11,18 @@ public class Grid {
     private final int PADDING = 10;
     private Rectangle grid;
     private Picture background;
+    private Rectangle statusRectangle;
 
     public Grid() {
-        grid = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT);
+        grid = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT+30);
         grid.setColor(Color.BLACK);
         grid.draw();
-        background = new Picture(PADDING + 1, PADDING + 1, "CloneWars/assets/background1.png");
+        statusRectangle = new Rectangle(PADDING, PADDING, WIDTH, 30);
+        statusRectangle.setColor(Color.BLACK);
+        statusRectangle.fill();
+        background = new Picture(PADDING + 1, PADDING + 30, "CloneWars/assets/background1.png");
         background.draw();
+
     }
 
     public int getHeight() {
