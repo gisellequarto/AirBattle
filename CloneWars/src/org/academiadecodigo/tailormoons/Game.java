@@ -21,7 +21,7 @@ public class Game {
     private int[] initialPosition = {20, 150, 280};
     private CollisionDetector colisionDetector;
     private Player player;
-
+    private LinkedList<Bullet> bulletsList = new LinkedList<>();
     public Game() {
         createGameObjects();
     }
@@ -93,13 +93,23 @@ public class Game {
         activeObjectsList.add(gameObjectsList.get(random));
     }
 
-    public void moveAll() {
-        if (player.canShoot()) {
-            player.shoot();
-        }
 
+    public void moveAll() {
         for (GameObject g : activeObjectsList) {
             g.move();
+        }
+        if (player.canShoot()) {
+            for(Bullet b : bulletsList){
+                if (b.getCanReuse()){
+
+                }
+            }
+            bulletsList.add(player.shoot());
+        }
+        if (!bulletsList.isEmpty()){
+            for (int i = 0; i < bulletsList.size(); i++){
+                bulletsList.get(i).move();
+            }
         }
     }
 

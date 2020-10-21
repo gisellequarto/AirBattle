@@ -27,9 +27,13 @@ public class Player {
     }
 
     public Bullet shoot() {
+        Bullet bullet = new Bullet(plane.getX(), plane.getY(), PICTURE_MIDDLE);
         setCanShoot();
-        return new Bullet(plane.getX(), plane.getY(), PICTURE_MIDDLE);
+        return bullet;
+    }
 
+    public void reShoot(Bullet bullet){
+        bullet.setBulletPos(plane.getX(), plane.getY(), PICTURE_MIDDLE);
     }
 
     public void die() {
