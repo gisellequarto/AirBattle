@@ -8,8 +8,8 @@ import org.academiadecodigo.tailormoons.gameobjects.obstacle.ObstacleType;
 
 public class Grid {
 
-    public static final int WIDTH = 401;
-    public static final int HEIGHT = 801;
+    public static final int WIDTH = 400;
+    public static final int HEIGHT = 800;
     private final int PADDING = 10;
     private Rectangle grid;
     private Picture background;
