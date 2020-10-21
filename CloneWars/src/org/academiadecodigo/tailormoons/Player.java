@@ -9,7 +9,7 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 public class Player {
 
     private Grid grid;
-    private static int score = 0;
+    private int score = 0;
     private boolean alive = true;
     private String name;
     private Picture plane;
@@ -28,8 +28,8 @@ public class Player {
         fuel = new Fuel();
     }
 
-    public void increaseScore(int score) {
-        this.score += score;
+    public void increaseScore(int points) {
+        score += points;
     }
 
     public Bullet shoot() {
@@ -75,7 +75,7 @@ public class Player {
         return canShoot;
     }
 
-    public static int getScore() {
+    public int getScore() {
         return score;
     }
 

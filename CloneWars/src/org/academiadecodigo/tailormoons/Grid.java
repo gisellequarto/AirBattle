@@ -12,24 +12,14 @@ public class Grid {
     private final int PADDING = 10;
     private Rectangle grid;
     private Picture background;
-    private Rectangle statusRectangle;
 
     public Grid() {
         grid = new Rectangle(PADDING, PADDING, WIDTH, HEIGHT + 30);
         grid.setColor(Color.BLACK);
         grid.draw();
-        statusRectangle = new Rectangle(PADDING, PADDING, WIDTH, 30);
-        statusRectangle.setColor(Color.BLACK);
-        statusRectangle.fill();
         background = new Picture(PADDING + 1, PADDING + 30, "CloneWars/assets/background1.png");
         background.draw();
 
-        Text fuelText = new Text(50, 16, "FUEL ");
-        fuelText.setColor(Color.WHITE);
-        fuelText.draw();
-        Text scoreText = new Text(180, 16, ("SCORE: " + Player.getScore()));
-        scoreText.setColor(Color.WHITE);
-        scoreText.draw();
 
     }
 
