@@ -8,7 +8,9 @@ import org.academiadecodigo.tailormoons.gameobjects.supply.SupplyType;
 
 public class Teste {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException{
+
+
 
 
         Game game = new Game();
