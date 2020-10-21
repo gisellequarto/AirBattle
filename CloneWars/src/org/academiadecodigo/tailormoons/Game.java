@@ -32,6 +32,7 @@ public class Game {
 
         Grid grid1 = new Grid();
         player = new Player(playerName, grid1);
+        SuperiorGrid superiorGrid = new SuperiorGrid(player);
         colisionDetector = new CollisionDetector(activeObjectsList, bulletsList);
 
 
@@ -53,6 +54,9 @@ public class Game {
         int counter = 30;
         while (true) {
             moveAll();
+            player.getFuel().decrease();
+            player.increaseScore(10);
+            superiorGrid.actualScore();
             colisionDetector.check(player);
             Thread.sleep(100);
             if (counter-- == 0) {
