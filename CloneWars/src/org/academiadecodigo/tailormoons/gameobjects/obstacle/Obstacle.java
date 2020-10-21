@@ -10,7 +10,7 @@ public class Obstacle extends GameObject implements Crashable {
     ObstacleType type;
 
     public Obstacle(ObstacleType obstacleType, int x) {
-        super(new Picture(x, 0, obstacleType.getPicturePath()));
+        super(new Picture(x, 30, obstacleType.getPicturePath()));
         type = obstacleType;
     }
 

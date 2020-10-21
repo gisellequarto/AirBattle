@@ -11,7 +11,7 @@ public class Enemy extends GameObject implements Shootable, Crashable {
     EnemyType type;
 
     public Enemy(EnemyType enemyType, int x) {
-        super(new Picture(x,0,enemyType.getPicturePath()));
+        super(new Picture(x,30,enemyType.getPicturePath()));
         type = enemyType;
     }
 
