@@ -11,7 +11,7 @@ public class Supply extends GameObject implements Shootable {
     private SupplyType type;
 
     public Supply(SupplyType supplyType, int x) {
-        super(new Picture(x,0,supplyType.getPicturePath()));
+        super(new Picture(x,30,supplyType.getPicturePath()));
         type = supplyType;
     }
 
