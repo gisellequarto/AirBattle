@@ -6,14 +6,16 @@ import java.util.List;
 
 public class CollisionDetector {
 
-    private List<GameObject> list;
+    private List<GameObject> gameObjectList;
+    private List<Bullet> bulletList;
 
-    public CollisionDetector(List<GameObject> list) {
-        this.list = list;
+    public CollisionDetector(List<GameObject> gameObjectList, List<Bullet> bulletList) {
+        this.gameObjectList = gameObjectList;
+        this.bulletList = bulletList;
     }
 
     public boolean isUnSafe(Player p) {
-        for (GameObject g : list) {
+        for (GameObject g : gameObjectList) {
             if (g.getPicture().getX() == p.getPlane().getX() && g.getPicture().getY() == p.getPlane().getY()) {
                 return true;
             }
@@ -24,7 +26,7 @@ public class CollisionDetector {
 
     public void check(Player p) {
 
-        for (GameObject gameObject : list) {
+        for (GameObject gameObject : gameObjectList) {
 
             if (p.getPlane().getY() == gameObject.getPicture().getMaxY()) {
 

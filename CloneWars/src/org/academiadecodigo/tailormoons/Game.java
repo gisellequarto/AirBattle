@@ -31,7 +31,7 @@ public class Game {
 
         Grid grid1 = new Grid();
         player = new Player(playerName, grid1);
-        colisionDetector = new CollisionDetector(activeObjectsList);
+        colisionDetector = new CollisionDetector(activeObjectsList, bulletsList);
 
 
         Keyboard keyboard = new Keyboard(new KeyboardListener(player));

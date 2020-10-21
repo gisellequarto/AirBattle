@@ -38,7 +38,7 @@ public class Player {
         return bullet;
     }
 
-    public void reShoot(Bullet bullet){
+    public void reShoot(Bullet bullet) {
         bullet.setBulletPos(plane.getX(), plane.getY(), PICTURE_MIDDLE);
     }
 
@@ -58,13 +58,13 @@ public class Player {
             }
             return;
         }
-        if(plane.getX() + x < grid.getPADDING()){
-            if(x > 0){
-                plane.translate(x,y);
+        if (plane.getX() + x < grid.getPADDING()) {
+            if (x > 0) {
+                plane.translate(x, y);
             }
             return;
         }
-        plane.translate(x,y);
+        plane.translate(x, y);
     }
 
     public void setCanShoot() {
@@ -101,7 +101,8 @@ public class Player {
             status.fill();
         }
 
-        Text scoreText = new Text(180, 16, ("SCORE: " + score) );
+        Text scoreText = new Text(180, 16, ("SCORE: " + score));
         scoreText.setColor(Color.WHITE);
         scoreText.draw();
     }
+}
