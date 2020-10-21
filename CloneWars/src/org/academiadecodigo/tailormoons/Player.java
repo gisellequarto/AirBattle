@@ -105,4 +105,3 @@ public class Player {
         scoreText.setColor(Color.WHITE);
         scoreText.draw();
     }
-}
