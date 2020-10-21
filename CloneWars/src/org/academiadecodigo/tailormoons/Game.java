@@ -52,6 +52,7 @@ public class Game {
         int counter = 30;
         while (true) {
             moveAll();
+            player.getFuel().decrease();
             colisionDetector.check(player);
             Thread.sleep(100);
             if (counter-- == 0) {

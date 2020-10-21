@@ -9,8 +9,7 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 public class Player {
 
     private Grid grid;
-    private int score = 0;
-    private int fuel = 100;
+    private static int score = 0;
     private boolean alive = true;
     private String name;
     private Picture plane;
@@ -18,6 +17,7 @@ public class Player {
     private int y = 700;
     private final int PICTURE_MIDDLE = 50;
     private boolean canShoot;
+    private Fuel fuel;
 
 
     public Player(String name, Grid grid) {
@@ -25,7 +25,7 @@ public class Player {
         this.name = name;
         this.plane = new Picture(x, y, "CloneWars/assets/player-plane.png");
         plane.draw();
-        playerInfo();
+        fuel = new Fuel();
     }
 
     public void increaseScore(int score) {
@@ -75,34 +75,12 @@ public class Player {
         return canShoot;
     }
 
-    public void playerInfo() {
-        Text fuelText = new Text(50, 16, "FUEL ");
-        fuelText.setColor(Color.WHITE);
-        fuelText.draw();
-
-        if (fuel >= 20) {
-            Rectangle status = new Rectangle(90, 19, 10, 10);
-            status.setColor(Color.YELLOW);
-            status.fill();
-        }
-        if (fuel >= 40) {
-            Rectangle status = new Rectangle(100, 19, 10, 10);
-            status.setColor(Color.YELLOW);
-            status.fill();
-        }
-        if (fuel >= 60) {
-            Rectangle status = new Rectangle(110, 19, 10, 10);
-            status.setColor(Color.ORANGE);
-            status.fill();
-        }
-        if (fuel >= 80) {
-            Rectangle status = new Rectangle(120, 19, 10, 10);
-            status.setColor(Color.ORANGE);
-            status.fill();
-        }
-
-        Text scoreText = new Text(180, 16, ("SCORE: " + score));
-        scoreText.setColor(Color.WHITE);
-        scoreText.draw();
+    public static int getScore() {
+        return score;
     }
+
+    public Fuel getFuel() {
+        return fuel;
+    }
+
 }
