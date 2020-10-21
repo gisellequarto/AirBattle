@@ -22,6 +22,7 @@ public class Game {
     private CollisionDetector colisionDetector;
     private Player player;
     private LinkedList<Bullet> bulletsList = new LinkedList<>();
+
     public Game() {
         createGameObjects();
     }
@@ -52,7 +53,6 @@ public class Game {
         int counter = 30;
         while (true) {
             moveAll();
-            player.getFuel().decrease();
             colisionDetector.check(player);
             Thread.sleep(100);
             if (counter-- == 0) {
@@ -94,21 +94,27 @@ public class Game {
         activeObjectsList.add(gameObjectsList.get(random));
     }
 
-
     public void moveAll() {
         for (GameObject g : activeObjectsList) {
             g.move();
         }
         if (player.canShoot()) {
-            for(Bullet b : bulletsList){
-                if (b.getCanReuse()){
-
+            boolean alreadyShot = false;
+            for (Bullet b : bulletsList) {
+                if (b.getCanReuse() && !alreadyShot) {
+                    player.reShoot(b);
+                    alreadyShot = true;
+                    System.out.println("bala reciclada");
+                    break;
                 }
             }
-            bulletsList.add(player.shoot());
+            if (!alreadyShot) {
+                bulletsList.add(player.shoot());
+                System.out.println("primeira bala");
+            }
         }
-        if (!bulletsList.isEmpty()){
-            for (int i = 0; i < bulletsList.size(); i++){
+        if (!bulletsList.isEmpty()) {
+            for (int i = 0; i < bulletsList.size(); i++) {
                 bulletsList.get(i).move();
             }
         }

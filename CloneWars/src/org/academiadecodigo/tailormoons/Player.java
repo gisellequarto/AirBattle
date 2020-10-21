@@ -1,9 +1,5 @@
 package org.academiadecodigo.tailormoons;
 
-import org.academiadecodigo.simplegraphics.graphics.Color;
-import org.academiadecodigo.simplegraphics.graphics.Ellipse;
-import org.academiadecodigo.simplegraphics.graphics.Rectangle;
-import org.academiadecodigo.simplegraphics.graphics.Text;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 public class Player {
@@ -40,6 +36,7 @@ public class Player {
 
     public void reShoot(Bullet bullet) {
         bullet.setBulletPos(plane.getX(), plane.getY(), PICTURE_MIDDLE);
+        setCanShoot();
     }
 
     public void die() {
