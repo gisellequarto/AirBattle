@@ -1,6 +1,8 @@
 package org.academiadecodigo.tailormoons;
 
 import org.academiadecodigo.tailormoons.gameobjects.GameObject;
+import org.academiadecodigo.tailormoons.gameobjects.supply.Supply;
+import org.academiadecodigo.tailormoons.gameobjects.supply.SupplyType;
 
 import java.util.List;
 
@@ -28,38 +30,42 @@ public class CollisionDetector {
 
         for (GameObject gameObject : gameObjectList) {
 
-            if (p.getPlane().getY() == gameObject.getPicture().getMaxY()) {
-
-                int gameObjectMin = gameObject.getPicture().getMaxY();
-                int gameObjectMax = gameObjectMin + gameObject.getPicture().getMaxX();
-                int playerMin = p.getPlane().getX();
-                int playerMax = p.getPlane().getMaxX();
-
-                if ((playerMin >= gameObjectMin && playerMin <= gameObjectMax) || (playerMax >= gameObjectMin && playerMax <= gameObjectMax)) {
-                    System.out.println("COLLISION");
-                    gameObject.recycle();
+            for (Bullet b : bulletList){
+                if (b.getBullet().getY() > gameObject.getPicture().getY() + 80){
                     continue;
                 }
-
-                System.out.println(" NOT COLLISION!");
-
+                if (b.getBullet().getX() > gameObject.getPicture().getX() + 80){
+                    continue;
+                }
+                if (gameObject.getPicture().getX() > b.getBullet().getX() + 10){
+                    continue;
+                }
+                b.getBullet().delete();
+                b.getBullet().translate(0, -b.getBullet().getY());
+                gameObject.getPicture().delete();
+                gameObject.getPicture().translate(0, -1000);
+                p.increaseScore(10);
             }
 
+            if (gameObject.getPicture().getY() + 80 < p.getPlane().getY()){
+                continue;
+            }
+            if (gameObject.getPicture().getX() + 80 < p.getPlane().getX()){
+                continue;
+            }
+            if (p.getPlane().getX() + 100 < gameObject.getPicture().getX()){
+                continue;
+            }
+            if (gameObject instanceof Supply){
+                System.out.println("p.reFuel()");
+                continue;
+            }
+            p.die();
+            break;
 
-         /*   int bottomObjectPosition = gameObject.getX() ;
-            int playerAbovePosition = p.getPlane().getX();
-            boolean leftCollision = (playerAbovePosition == bottomObjectPosition || playerAbovePosition == bottomObjectPosition + 40 || playerAbovePosition == bottomObjectPosition + 80);
-            boolean middleCollision = (playerAbovePosition + 50 == bottomObjectPosition || playerAbovePosition + 50 == bottomObjectPosition + 40 || playerAbovePosition + 50 == bottomObjectPosition + 80);
-            boolean rightCollision = (playerAbovePosition + 100 == bottomObjectPosition || playerAbovePosition + 100 == bottomObjectPosition + 40 || playerAbovePosition + 100 == bottomObjectPosition + 80);
-
-
-
-
-            if ((leftCollision || middleCollision || rightCollision) && (p.getPlane().getY() == gameObject.getY())) {
-                System.out.println("colidiu!");
-                p.die();
-            }*/
         }
+
+
 
     }
 

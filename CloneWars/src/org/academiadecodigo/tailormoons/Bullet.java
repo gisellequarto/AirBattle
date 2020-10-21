@@ -23,7 +23,7 @@ public class Bullet {
 
     public void move() {
         bullet.translate(0, -BULLET_SPEED);
-        if (bullet.getY() <= 0) {
+        if (bullet.getY() <= 30) {
             bullet.delete();
             canReuse = true;
         }
@@ -37,5 +37,9 @@ public class Bullet {
         this.bullet.translate(x - this.bullet.getX() + PICTURE_MIDDLE, y - this.bullet.getY());
         this.canReuse = false;
         this.bullet.fill();
+    }
+
+    public Ellipse getBullet(){
+        return this.bullet;
     }
 }
