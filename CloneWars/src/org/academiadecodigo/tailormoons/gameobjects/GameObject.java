@@ -15,11 +15,9 @@ import java.util.List;
 public abstract class GameObject {
 
     protected Picture picture;
-    private String subtype;
 
-    public GameObject(Picture picture, String subtype) {
+    public GameObject(Picture picture) {
         this.picture = picture;
-        this.subtype = subtype;
     }
 
     public Picture getPicture() {

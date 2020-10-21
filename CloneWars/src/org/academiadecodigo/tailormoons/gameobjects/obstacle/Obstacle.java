@@ -6,23 +6,22 @@ import org.academiadecodigo.tailormoons.gameobjects.GameObject;
 
 public class Obstacle extends GameObject {
 
-    private static int speed = 10;
-
-    private Grid grid;
+    ObstacleType type;
 
     public Obstacle(ObstacleType obstacleType, int x) {
-        super(new Picture(x, 0, obstacleType.getPicturePath()), obstacleType.name());
+        super(new Picture(x, 0, obstacleType.getPicturePath()));
+        type = obstacleType;
     }
 
 
     @Override
     public void move() {
-        this.picture.translate(0, speed);
+        this.picture.translate(0, type.getSpeed());
 
-    /*    if(this.getY() > grid.getHeight()) {
+        if (picture.getMaxY() >= Grid.HEIGHT) {
             this.recycle();
-        }*/
-    }
 
+        }
+    }
 
 }

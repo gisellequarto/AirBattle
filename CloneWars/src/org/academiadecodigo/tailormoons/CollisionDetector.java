@@ -33,13 +33,13 @@ public class CollisionDetector {
                 int playerMin = p.getPlane().getX();
                 int playerMax = p.getPlane().getMaxX();
 
-                if ((gameObjectMax < playerMin) || (gameObjectMin > playerMax)) {
-                    System.out.println("NOT COLLISION");
+                if ((playerMin >= gameObjectMin && playerMin <= gameObjectMax) || (playerMax >= gameObjectMin && playerMax <= gameObjectMax)) {
+                    System.out.println("COLLISION");
+                    gameObject.recycle();
                     continue;
                 }
 
-                gameObject.recycle();
-                System.out.println("COLLISION!");
+                System.out.println(" NOT COLLISION!");
 
             }
 

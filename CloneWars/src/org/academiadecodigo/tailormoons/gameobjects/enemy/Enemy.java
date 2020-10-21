@@ -8,30 +8,29 @@ import org.academiadecodigo.tailormoons.gameobjects.Shootable;
 
 public class Enemy extends GameObject implements Shootable, Crashable {
 
-    private int health;
-    private int scoreValue;
-    private int speed;
-    private Grid grid;
+    EnemyType type;
 
     public Enemy(EnemyType enemyType, int x) {
-        super(new Picture(x,0,enemyType.getPicturePath()), enemyType.name());
-        this.health = enemyType.getHealth();
-        this.scoreValue = enemyType.getScoreValue();
-        this.speed = enemyType.getSpeed();
+        super(new Picture(x,0,enemyType.getPicturePath()));
+        type = enemyType;
     }
 
     @Override
     public void move() {
-        picture.translate(0, speed);
+        picture.translate(0, type.getSpeed());
+
+        if (picture.getMaxY() >= Grid.HEIGHT) {
+            this.recycle();
+        }
     }
 
     public int destroy() {
         this.recycle();
-        return scoreValue;
+        return type.getScoreValue();
     }
 
     public boolean isDestroyed() {
-        return this.health <= 0;
+        return type.getHealth() <= 0;
     }
 
 }

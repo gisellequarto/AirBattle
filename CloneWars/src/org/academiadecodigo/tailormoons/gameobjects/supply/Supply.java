@@ -8,24 +8,25 @@ import org.academiadecodigo.tailormoons.gameobjects.Shootable;
 public class Supply extends GameObject implements Shootable {
 
     private boolean isCaught;
-    private int scoreValue;
-    private int speed;
-    private Grid grid;
+    private SupplyType type;
 
     public Supply(SupplyType supplyType, int x) {
-        super(new Picture(x,0,supplyType.getPicturePath()), supplyType.name());
-        this.scoreValue = supplyType.getScoreValue();
-        this.speed = supplyType.getSpeed();
+        super(new Picture(x,0,supplyType.getPicturePath()));
+        type = supplyType;
     }
 
     @Override
     public void move() {
-        picture.translate(0, speed);
+        picture.translate(0, type.getSpeed());
+
+        if (picture.getMaxY() >= Grid.HEIGHT) {
+            this.recycle();
+        }
     }
 
     public int destroy() {
         this.recycle();
-        return scoreValue;
+        return type.getScoreValue();
     }
 
 }
