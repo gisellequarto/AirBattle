@@ -35,24 +35,31 @@ public class CollisionDetector {
         while (iterator.hasNext()) {
             GameObject gameObject = iterator.next();
 
-            for (Bullet b : bulletList){
-                if (b.getBullet().getY() == 0){
+            if (gameObject.isRecycled()) {
+                iterator.remove();
+                continue;
+            }
+
+            for (Bullet b : bulletList) {
+                System.out.println("Bullet " + b.getBullet().getY());
+                if (b.getBullet().getY() == 0) {
                     continue;
                 }
-                if (b.getBullet().getY() > gameObject.getPicture().getY() + 80){
+                if (b.getBullet().getY() > gameObject.getPicture().getY() + 80) {
                     continue;
                 }
-                if (b.getBullet().getX() > gameObject.getPicture().getX() + 80){
+                if (b.getBullet().getX() > gameObject.getPicture().getX() + 80) {
                     continue;
                 }
-                if (gameObject.getPicture().getX() > b.getBullet().getX() + 10){
+                if (gameObject.getPicture().getX() > b.getBullet().getX() + 10) {
                     continue;
                 }
-                if (gameObject instanceof Obstacle){
+                System.out.println("BOOOM");
+                if (gameObject instanceof Obstacle) {
                     b.getBullet().delete();
                     b.getBullet().translate(0, -b.getBullet().getY());
                     b.setCanReuse(true);
-                    break;
+                    continue;
                 }
                 b.getBullet().delete();
                 b.getBullet().translate(0, -b.getBullet().getY());
@@ -64,16 +71,17 @@ public class CollisionDetector {
                 break;
             }
 
-            if (gameObject.getPicture().getY() + 80 < p.getPlane().getY()){
+            if (gameObject.getPicture().getY() + 80 < p.getPlane().getY()) {
                 continue;
             }
-            if (gameObject.getPicture().getX() + 80 < p.getPlane().getX()){
+            if (gameObject.getPicture().getX() + 80 < p.getPlane().getX()) {
                 continue;
             }
-            if (p.getPlane().getX() + 100 < gameObject.getPicture().getX()){
+            if (p.getPlane().getX() + 100 < gameObject.getPicture().getX()) {
                 continue;
             }
-            if (gameObject instanceof Supply){
+
+            if (gameObject instanceof Supply) {
                 gameObject.recycle();
                 inactiveObjectList.add(gameObject);
                 iterator.remove();
@@ -88,7 +96,6 @@ public class CollisionDetector {
             break;
 
         }
-
 
 
     }

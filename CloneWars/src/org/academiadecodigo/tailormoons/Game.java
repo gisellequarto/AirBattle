@@ -124,7 +124,10 @@ public class Game {
         }
         if (!bulletsList.isEmpty()) {
             for (int i = 0; i < bulletsList.size(); i++) {
-                bulletsList.get(i).move();
+                if (bulletsList.get(i).getBullet().getY() != 0){
+                    bulletsList.get(i).move();
+                }
+
             }
         }
     }
