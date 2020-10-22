@@ -22,6 +22,7 @@ public abstract class GameObject {
 
     public void recycle() {
         picture.delete();
+        picture.translate(0, -(picture.getY()) + 30);
 
     }
 

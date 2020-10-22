@@ -60,7 +60,7 @@ public class CollisionDetector {
                 b.getBullet().delete();
                 b.getBullet().translate(0, -b.getBullet().getY());
                 b.setCanReuse(true);
-                gameObject.getPicture().delete();
+                gameObject.recycle();
                 inactiveObjectList.add(gameObject);
                 iterator.remove();
                 p.increaseScore(10);
