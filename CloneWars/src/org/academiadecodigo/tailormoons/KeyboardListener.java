@@ -32,10 +32,10 @@ public class KeyboardListener implements KeyboardHandler {
                 player.translate(0, 10);
                 break;
             case KeyboardEvent.KEY_LEFT:
-                player.translate(-10, 0);
+                player.translate(-20, 0);
                 break;
             case KeyboardEvent.KEY_RIGHT:
-                player.translate(10, 0);
+                player.translate(20, 0);
                 break;
             case KeyboardEvent.KEY_SPACE:
                 player.setCanShoot();
