@@ -16,7 +16,7 @@ import java.util.List;
 
 public class Game {
 
-    private List<GameObject> gameObjectsList = new LinkedList<>();
+    private List<GameObject> inactiveObjectsList = new LinkedList<>();
     private List<GameObject> activeObjectsList = new LinkedList<>();
     private int[] initialPosition = {20, 150, 280};
     private CollisionDetector colisionDetector;
@@ -33,7 +33,7 @@ public class Game {
         Grid grid1 = new Grid();
         player = new Player(playerName, grid1);
         SuperiorGrid superiorGrid = new SuperiorGrid(player);
-        colisionDetector = new CollisionDetector(activeObjectsList, bulletsList);
+        colisionDetector = new CollisionDetector(activeObjectsList, inactiveObjectsList, bulletsList);
 
 
         Keyboard keyboard = new Keyboard(new KeyboardListener(player));
@@ -69,21 +69,21 @@ public class Game {
 
 
     private void createGameObjects() {
-        gameObjectsList.add(new Enemy(EnemyType.SPACESHIP, getXRandom()));
-        gameObjectsList.add(new Enemy(EnemyType.SPACESHIP, getXRandom()));
-        gameObjectsList.add(new Enemy(EnemyType.PLANE, getXRandom()));
-        gameObjectsList.add(new Enemy(EnemyType.PLANE, getXRandom()));
-        gameObjectsList.add(new Enemy(EnemyType.SATELLITE, getXRandom()));
-        gameObjectsList.add(new Enemy(EnemyType.SATELLITE, getXRandom()));
-        gameObjectsList.add(new Enemy(EnemyType.UFO, getXRandom()));
-        gameObjectsList.add(new Enemy(EnemyType.UFO, getXRandom()));
-        gameObjectsList.add(new Supply(SupplyType.GAS_STATION, getXRandom()));
-        gameObjectsList.add(new Supply(SupplyType.GAS_STATION, getXRandom()));
-        gameObjectsList.add(new Supply(SupplyType.BEER, getXRandom()));
-        gameObjectsList.add(new Supply(SupplyType.BEER, getXRandom()));
-        gameObjectsList.add(new Obstacle(ObstacleType.MOUNTAIN, getXRandom()));
-        gameObjectsList.add(new Obstacle(ObstacleType.HELIX, getXRandom()));
-        gameObjectsList.add(new Obstacle(ObstacleType.BUILDING, getXRandom()));
+        inactiveObjectsList.add(new Enemy(EnemyType.SPACESHIP, getXRandom()));
+        inactiveObjectsList.add(new Enemy(EnemyType.SPACESHIP, getXRandom()));
+        inactiveObjectsList.add(new Enemy(EnemyType.PLANE, getXRandom()));
+        inactiveObjectsList.add(new Enemy(EnemyType.PLANE, getXRandom()));
+        inactiveObjectsList.add(new Enemy(EnemyType.SATELLITE, getXRandom()));
+        inactiveObjectsList.add(new Enemy(EnemyType.SATELLITE, getXRandom()));
+        inactiveObjectsList.add(new Enemy(EnemyType.UFO, getXRandom()));
+        inactiveObjectsList.add(new Enemy(EnemyType.UFO, getXRandom()));
+        inactiveObjectsList.add(new Supply(SupplyType.GAS_STATION, getXRandom()));
+        inactiveObjectsList.add(new Supply(SupplyType.GAS_STATION, getXRandom()));
+        inactiveObjectsList.add(new Supply(SupplyType.BEER, getXRandom()));
+        inactiveObjectsList.add(new Supply(SupplyType.BEER, getXRandom()));
+        inactiveObjectsList.add(new Obstacle(ObstacleType.MOUNTAIN, getXRandom()));
+        inactiveObjectsList.add(new Obstacle(ObstacleType.HELIX, getXRandom()));
+        inactiveObjectsList.add(new Obstacle(ObstacleType.BUILDING, getXRandom()));
 
     }
 
@@ -92,9 +92,9 @@ public class Game {
     }
 
     private void placeObject() {
-        int random = ((int) (Math.random() * gameObjectsList.size()));
-        gameObjectsList.get(random).place();
-        activeObjectsList.add(gameObjectsList.get(random));
+        int random = ((int) (Math.random() * inactiveObjectsList.size()));
+        inactiveObjectsList.get(random).place();
+        activeObjectsList.add(inactiveObjectsList.remove(random));
     }
 
     public void moveAll() {
@@ -122,6 +122,5 @@ public class Game {
             }
         }
     }
-
 
 }

@@ -2,22 +2,24 @@ package org.academiadecodigo.tailormoons;
 
 import org.academiadecodigo.tailormoons.gameobjects.GameObject;
 import org.academiadecodigo.tailormoons.gameobjects.supply.Supply;
-import org.academiadecodigo.tailormoons.gameobjects.supply.SupplyType;
 
+import java.util.Iterator;
 import java.util.List;
 
 public class CollisionDetector {
 
-    private List<GameObject> gameObjectList;
+    private List<GameObject> activeObjectList;
     private List<Bullet> bulletList;
+    private List<GameObject> inactiveObjectList;
 
-    public CollisionDetector(List<GameObject> gameObjectList, List<Bullet> bulletList) {
-        this.gameObjectList = gameObjectList;
+    public CollisionDetector(List<GameObject> gameObjectList, List<GameObject> inactiveObjectList, List<Bullet> bulletList) {
+        this.activeObjectList = gameObjectList;
         this.bulletList = bulletList;
+        this.inactiveObjectList = inactiveObjectList;
     }
 
     public boolean isUnSafe(Player p) {
-        for (GameObject g : gameObjectList) {
+        for (GameObject g : activeObjectList) {
             if (g.getPicture().getX() == p.getPlane().getX() && g.getPicture().getY() == p.getPlane().getY()) {
                 return true;
             }
@@ -28,7 +30,9 @@ public class CollisionDetector {
 
     public void check(Player p) {
 
-        for (GameObject gameObject : gameObjectList) {
+        Iterator<GameObject> iterator = activeObjectList.iterator();
+        while (iterator.hasNext()) {
+            GameObject gameObject = iterator.next();
 
             for (Bullet b : bulletList){
                 if (b.getBullet().getY() > gameObject.getPicture().getY() + 80){
@@ -43,8 +47,10 @@ public class CollisionDetector {
                 b.getBullet().delete();
                 b.getBullet().translate(0, -b.getBullet().getY());
                 gameObject.getPicture().delete();
-                gameObject.getPicture().translate(0, -1000);
+                inactiveObjectList.add(gameObject);
+                iterator.remove();
                 p.increaseScore(10);
+                break;
             }
 
             if (gameObject.getPicture().getY() + 80 < p.getPlane().getY()){

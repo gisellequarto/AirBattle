@@ -1,8 +1,8 @@
 package org.academiadecodigo.tailormoons.gameobjects.supply;
 
 public enum SupplyType {
-    GAS_STATION(5, 10, "CloneWars/assets/gasStation.png"),
-    BEER(5, 10, "CloneWars/assets/beer.png");
+    GAS_STATION(5, 8, "CloneWars/assets/gasStation.png"),
+    BEER(5, 8, "CloneWars/assets/beer.png");
 
     private int scoreValue;
     private String picturePath;
