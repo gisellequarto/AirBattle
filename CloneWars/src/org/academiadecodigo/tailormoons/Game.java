@@ -3,6 +3,7 @@ package org.academiadecodigo.tailormoons;
 import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
+import org.academiadecodigo.simplegraphics.pictures.Picture;
 import org.academiadecodigo.tailormoons.gameobjects.GameObject;
 import org.academiadecodigo.tailormoons.gameobjects.enemy.Enemy;
 import org.academiadecodigo.tailormoons.gameobjects.enemy.EnemyType;
@@ -76,7 +77,20 @@ public class Game {
         counter = 30;
         while (true) {
             play(superiorGrid);
+            if (player.getFuel().getFuel() == 0){
+                player.getPlane().delete();
+                Picture gameOver = new Picture(grid1.getPADDING(), grid1.getPADDING() + 30, "CloneWars/assets/gameover.png");
+                gameOver.draw();
+                break;
+            }
+            if (player.getScore() >= 20){
+                player.getPlane().delete();
+                Picture win = new Picture(grid1.getPADDING(), grid1.getPADDING() + 30, "CloneWars/assets/win.png");
+                win.draw();
+                break;
+            }
         }
+
     }
 
     private void play(SuperiorGrid superiorGrid) throws InterruptedException {
@@ -89,6 +103,7 @@ public class Game {
             placeObject();
             counter = 30;
         }
+
     }
 
 
