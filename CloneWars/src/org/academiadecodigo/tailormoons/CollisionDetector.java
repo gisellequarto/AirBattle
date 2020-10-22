@@ -36,9 +36,6 @@ public class CollisionDetector {
             GameObject gameObject = iterator.next();
 
             for (Bullet b : bulletList){
-                if (gameObject.getPicture().getY() < 10){
-                    continue;
-                }
                 if (b.getBullet().getY() == 0){
                     continue;
                 }
