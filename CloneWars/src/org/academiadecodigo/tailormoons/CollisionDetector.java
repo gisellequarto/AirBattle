@@ -1,6 +1,7 @@
 package org.academiadecodigo.tailormoons;
 
 import org.academiadecodigo.tailormoons.gameobjects.GameObject;
+import org.academiadecodigo.tailormoons.gameobjects.obstacle.Obstacle;
 import org.academiadecodigo.tailormoons.gameobjects.supply.Supply;
 
 import java.util.Iterator;
@@ -35,6 +36,12 @@ public class CollisionDetector {
             GameObject gameObject = iterator.next();
 
             for (Bullet b : bulletList){
+                if (gameObject.getPicture().getY() < 10){
+                    continue;
+                }
+                if (b.getBullet().getY() == 0){
+                    continue;
+                }
                 if (b.getBullet().getY() > gameObject.getPicture().getY() + 80){
                     continue;
                 }
@@ -44,8 +51,15 @@ public class CollisionDetector {
                 if (gameObject.getPicture().getX() > b.getBullet().getX() + 10){
                     continue;
                 }
+                if (gameObject instanceof Obstacle){
+                    b.getBullet().delete();
+                    b.getBullet().translate(0, -b.getBullet().getY());
+                    b.setCanReuse(true);
+                    break;
+                }
                 b.getBullet().delete();
                 b.getBullet().translate(0, -b.getBullet().getY());
+                b.setCanReuse(true);
                 gameObject.getPicture().delete();
                 inactiveObjectList.add(gameObject);
                 iterator.remove();

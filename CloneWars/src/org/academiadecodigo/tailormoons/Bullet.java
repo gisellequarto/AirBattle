@@ -9,7 +9,7 @@ import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 public class Bullet {
 
     private final int BULLET_SIZE = 10;
-    private final int BULLET_SPEED = 10;
+    private final int BULLET_SPEED = 20;
     private Ellipse bullet;
     private boolean canReuse;
 
@@ -41,5 +41,9 @@ public class Bullet {
 
     public Ellipse getBullet(){
         return this.bullet;
+    }
+
+    public void setCanReuse(boolean b){
+        this.canReuse = b;
     }
 }
