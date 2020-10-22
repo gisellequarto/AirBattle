@@ -74,7 +74,13 @@ public class CollisionDetector {
                 continue;
             }
             if (gameObject instanceof Supply){
-                System.out.println("p.reFuel()");
+                gameObject.recycle();
+                inactiveObjectList.add(gameObject);
+                iterator.remove();
+                Supply supply = (Supply) gameObject;
+                p.refillFuel(supply.fuelPump());
+                System.out.println("FUEL: " + p.getFuel().getFuel());
+
                 continue;
             }
             p.die();

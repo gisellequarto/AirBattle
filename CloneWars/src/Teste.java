@@ -8,8 +8,5 @@ public class Teste {
         Game game = new Game();
         game.init("Hugo");
 
-
-
-
     }
 }

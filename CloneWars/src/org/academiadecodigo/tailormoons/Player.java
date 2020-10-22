@@ -6,7 +6,6 @@ public class Player {
 
     private Grid grid;
     private int score = 0;
-    private boolean alive = true;
     private String name;
     private Picture plane;
     private int x = 130;
@@ -40,7 +39,7 @@ public class Player {
     }
 
     public void die() {
-        this.alive = false;
+        fuel.setFuel(0);
     }
 
     public Picture getPlane() {
@@ -79,5 +78,10 @@ public class Player {
     public Fuel getFuel() {
         return fuel;
     }
+
+    public void refillFuel(int fuelPump){
+        fuel.refill(fuelPump);
+    }
+
 
 }

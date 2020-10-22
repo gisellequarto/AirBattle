@@ -12,7 +12,7 @@ public class Fuel {
     private Rectangle status4;
 
    public Fuel() {
-       fuel = 1000;
+       fuel = 1500;
        status1 = new Rectangle(90, 19, 10, 10);
        status1.setColor(Color.YELLOW);
        status2 = new Rectangle(100, 19, 10, 10);
@@ -59,4 +59,9 @@ public class Fuel {
     public int getFuel() {
         return fuel;
     }
+
+    public void setFuel(int set) {
+       fuel = set;
+    }
+
 }

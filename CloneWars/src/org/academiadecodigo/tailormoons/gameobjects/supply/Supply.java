@@ -29,4 +29,8 @@ public class Supply extends GameObject implements Shootable {
         return type.getScoreValue();
     }
 
+    public int fuelPump() {
+        return type.getFuelPump();
+    }
+
 }
