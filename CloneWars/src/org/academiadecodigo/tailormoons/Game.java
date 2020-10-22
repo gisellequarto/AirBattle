@@ -55,7 +55,6 @@ public class Game {
         while (true) {
             moveAll();
             player.getFuel().decrease();
-            player.increaseScore(10);
             superiorGrid.actualScore();
             colisionDetector.check(player);
             Thread.sleep(100);
