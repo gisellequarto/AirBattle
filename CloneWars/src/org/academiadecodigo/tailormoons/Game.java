@@ -83,7 +83,7 @@ public class Game {
                 gameOver.draw();
                 break;
             }
-            if (player.getScore() >= 20){
+            if (player.getScore() >= 100){
                 player.getPlane().delete();
                 Picture win = new Picture(grid1.getPADDING(), grid1.getPADDING() + 30, "CloneWars/assets/win.png");
                 win.draw();
