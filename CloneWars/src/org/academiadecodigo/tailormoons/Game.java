@@ -16,19 +16,41 @@ import java.util.List;
 
 public class Game {
 
+    private boolean isPlaying = false;
     private List<GameObject> inactiveObjectsList = new LinkedList<>();
     private List<GameObject> activeObjectsList = new LinkedList<>();
     private int[] initialPosition = {20, 150, 280};
     private CollisionDetector colisionDetector;
     private Player player;
     private LinkedList<Bullet> bulletsList = new LinkedList<>();
+    private int counter;
 
     public Game() {
         createGameObjects();
     }
 
+    public void play() {
+        isPlaying = true;
+    }
+
+    public void menuInit() {
+        GridMenu menu = new GridMenu(this);
+        Keyboard keyboard = new Keyboard(new KeyboardListener(menu, this));
+        KeyboardEvent left = new KeyboardEvent();
+        left.setKey(KeyboardEvent.KEY_S);
+        left.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
+        keyboard.addEventListener(left);
+    }
 
     public void init(String playerName) throws InterruptedException {
+        menuInit();
+
+        while (true) {
+            Thread.sleep(10);
+            if (isPlaying) {
+                break;
+            }
+        }
 
         Grid grid1 = new Grid();
         player = new Player(playerName, grid1);
@@ -51,27 +73,27 @@ public class Game {
         keyboard.addEventListener(shoot);
 
 
-        int counter = 30;
+        counter = 30;
         while (true) {
-            moveAll();
-            player.getFuel().decrease();
-            superiorGrid.actualScore();
-            colisionDetector.check(player);
-            Thread.sleep(100);
-            if (counter-- == 0) {
-                placeObject();
-                counter = 30;
-            }
-            if (player.getFuel().getFuel() == 0){
-                player.getPlane().delete();
-                break;
-            }
+            play(superiorGrid);
         }
-
-
-
-
     }
+
+    private void play(SuperiorGrid superiorGrid) throws InterruptedException {
+        moveAll();
+        player.getFuel().decrease();
+        superiorGrid.actualScore();
+        colisionDetector.check(player);
+        Thread.sleep(100);
+        if (counter-- == 0) {
+            placeObject();
+            counter = 30;
+        }
+    }
+
+
+
+
 
 
     private void createGameObjects() {

@@ -9,10 +9,17 @@ import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 public class KeyboardListener implements KeyboardHandler {
 
     private Player player;
+    private GridMenu menu;
+    private Game game;
 
     public KeyboardListener(Player player) {
         this.player = player;
 
+    }
+
+    public KeyboardListener(GridMenu menu, Game game) {
+        this.menu = menu;
+        this.game = game;
     }
 
     @Override
@@ -32,6 +39,11 @@ public class KeyboardListener implements KeyboardHandler {
                 break;
             case KeyboardEvent.KEY_SPACE:
                 player.setCanShoot();
+            case KeyboardEvent.KEY_S:
+                if (game == null){
+                    break;
+                }
+                game.play();
         }
     }
 
