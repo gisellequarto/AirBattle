@@ -83,6 +83,7 @@ public class CollisionDetector {
 
                 continue;
             }
+            gameObject.getPicture().delete();
             p.die();
             break;
 

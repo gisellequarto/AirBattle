@@ -62,8 +62,14 @@ public class Game {
                 placeObject();
                 counter = 30;
             }
-
+            if (player.getFuel().getFuel() == 0){
+                player.getPlane().delete();
+                break;
+            }
         }
+
+
+
 
     }
 
