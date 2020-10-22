@@ -47,7 +47,7 @@ public class Fuel {
    }
 
    public void refill(int refill) {
-       fuel = refill;
+       fuel += refill;
        checkFuelStatus();
    }
 

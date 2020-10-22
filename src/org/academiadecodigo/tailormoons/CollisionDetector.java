@@ -41,7 +41,6 @@ public class CollisionDetector {
             }
 
             for (Bullet b : bulletList) {
-                System.out.println("Bullet " + b.getBullet().getY());
                 if (b.getBullet().getY() == 0) {
                     continue;
                 }
@@ -54,7 +53,6 @@ public class CollisionDetector {
                 if (gameObject.getPicture().getX() > b.getBullet().getX() + 10) {
                     continue;
                 }
-                System.out.println("BOOOM");
                 if (gameObject instanceof Obstacle) {
                     b.getBullet().delete();
                     b.getBullet().translate(0, -b.getBullet().getY());
@@ -87,7 +85,6 @@ public class CollisionDetector {
                 iterator.remove();
                 Supply supply = (Supply) gameObject;
                 p.refillFuel(supply.fuelPump());
-                System.out.println("FUEL: " + p.getFuel().getFuel());
 
                 continue;
             }

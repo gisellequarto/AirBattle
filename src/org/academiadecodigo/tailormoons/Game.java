@@ -150,13 +150,11 @@ public class Game {
                 if (b.getCanReuse() && !alreadyShot) {
                     player.reShoot(b);
                     alreadyShot = true;
-                    System.out.println("bala reciclada");
                     break;
                 }
             }
             if (!alreadyShot) {
                 bulletsList.add(player.shoot());
-                System.out.println("primeira bala");
             }
         }
         if (!bulletsList.isEmpty()) {
